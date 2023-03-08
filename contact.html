@@ -1,0 +1,106 @@
+<!--
+Student Name : Mihir Joshi   Student ID : c0878724
+TERM PROJECT     CONTACT.HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Use the title area for giving to the webpage-->
+        <title>M J Kitchen Ware</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="Css/styles.css">
+        <link rel="stylesheet" type="text/css" href="Css/contact.css">
+        
+    </head>
+    <body>
+        <!--Use the Header area for the company logo -->
+        <header>
+           <a href=index.html><img src="images/logo.jpg" alt="Antartic's Sun Logo" height="" width=""></a>
+           <h1>Contact US </h1>
+        </header>
+        <!-- Use the navigation space for the giving the links to different web pages-->
+        <div class="navbar">
+            <a href="index.html"><b>Home</b></a>&nbsp; &nbsp;
+            <a href="about.html"><b>About Us</b></a>&nbsp; &nbsp;
+            <a href="team.html"><b>Our Team</b></a>&nbsp; &nbsp;
+            <a href="specials.html"><b>Specials</b></a>&nbsp; &nbsp;
+            <a href="training.html"><b>Training</b></a>&nbsp; &nbsp;
+            <a href="media.html"><b>Media</b></a>&nbsp; &nbsp;
+            <a href="contact.html"><b>Contact</b></a>&nbsp; &nbsp;
+                <div class="dropdown">
+                    <button class="dropbtn"><b>Reports</b>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                <div class="dropdown-content">
+                    
+                    <a href="http://185.113.4.41:7260/mvc1.html">Report 1</a>
+                    <a href="http://185.113.4.41:7260/mvc2.html">Report 2</a>
+                    <a href="http://185.113.4.41:7260/mvc3.html">Report 3</a>
+					<a href="http://185.113.4.41:7260/mvc4.html">Report 4</a>
+
+                </div>
+            </div> 
+        </div>
+
+        <main style="background-image: url(images/homeBanner_1300x700.jpg);">
+           <div class="form-center"> 
+            <form><!-- Start Form -->
+                <h1>Get in touch!</h1>
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName">
+                <br></br>
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" id="lName">
+                <br></br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br></br>
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+                
+                <br></br>
+                <div class="left">
+                <label class="left">  
+                    Gender:   
+                </label>  <br>  
+                <input class="left" type="radio" id="gender" name="gender" value="male"/> Male    
+                <br>  
+                <input  class="left" type="radio" id="gender" name="gender" value="female"/> Female <br/>
+                </div>
+            <p class="left">I would like more information about:</p>
+
+            <ul>
+                <li class="left"><input type="checkbox" name="grpfit" id="grpfit" value="grpfit" class="chkbx">Pepper Mills</li>
+                <li class="left"><input type="checkbox" name="prtrain" id="prtrain" value="prtrain" class="chkbx">Training Session</li>
+                <li class="left"><input type="checkbox" name="nutr" id="nutr" value="nutr" class="chkbx">Products</li>
+            </ul>
+
+            <label for="reference">Referral Source:</label>
+        <select name="reference" id="reference">
+            <option value="ad">Advertisement</option>
+            <option value="friend">Friend</option>
+            <option value="google">Google</option>
+            <option value="social">SocialMedia</option>
+            <option value="other">Other</option>
+        </select>
+        <br></br>
+            <label for="questions"> Questions?</label>
+            <textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+            <br></br><br></br>
+            <input class="button" type="submit" id="submit" value ="Submit" class="btn">
+            
+            <input class="button" type="reset" id="reset" value="Reset Form" class="btn">
+
+        </form>
+    </div>
+        </main>
+       
+ <!--Use the Footer Space to link the coprights,mail to contact directly to company email and owners details.-->
+ <footer>
+    &copy; Copyright 2099. All Rights Reserved<br>
+    Mihir Joshi &nbsp; &nbsp; c0878724<br>
+    <a href="mailto:info@antarticsun.com">Request Information</a>
+</footer>
+</body>
+</html>
